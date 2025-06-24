@@ -54,17 +54,7 @@ The CloudFormation template will create:
 - **One SQS queue** for S3 event notifications.
 - **S3 Event Notification** to trigger messages to SQS on new log arrival.
 - **IAM Role & Policy** granting Microsoft Sentinel access to the S3 bucket and SQS queue.
-
-## Configuring CloudFront Logging
-
-- Go to **AWS CloudFront Console**
-- Select the relevant **CloudFront Distribution**
-- Navigate to the **Logging** tab and under Stand log destinations click **Add** Choose **Amazon S3**
-- Provide the S3 bucket which is created through cloudformation stack
-- Clink on **Additional settings**
-- Navigate to Output format choose **Plain-text** and Field delimiter \t
-- Save changes
-
+  
 ## Configuring CloudFront Logging
 
 To enable logging for your CloudFront distribution and route logs to the S3 bucket created by the CloudFormation stack:
