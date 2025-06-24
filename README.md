@@ -23,7 +23,7 @@ Download the CloudFormation template from the [GitHub Repository](https://github
 ## CloudFormation Deployment
 
 ### Deploying the Stack
-#### ODIC Web Identity
+#### OIDC Web Identity
 > **Note:**  
 > If you have already deployed the **OIDC Web Identity Provider** for another AWS data connector in Microsoft Sentinel (e.g., VPC Flow Logs, GuardDuty, etc.), you do **not** need to deploy it again. You can safely skip this step and continue with the CloudFront configuration.
 - Navigate to the [AWS CloudFormation console](https://aka.ms/awsCloudFormationLink#/stacks/create)
